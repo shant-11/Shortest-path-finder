@@ -297,7 +297,7 @@ export default class PathfindingVisualizer extends Component {
                 <h2><b>Instructions</b></h2>
                 <ul>
                     <li>Mouse over nodes after hitting 'w' key to start adding walls, hit 'x' key when done.</li>
-                    <li>To move start node (green) or end node (red), hit 's' key or 'e' key, respectively and mouse over nodes to choose preferred start or end node, hit 'x' key when done. </li>
+                    <li>To move start node (green) or end node (red), hit 's' key or 'e' key, respectively, and mouse over nodes to choose preferred start or end node, hit 'x' key when done. </li>
                 </ul>
             </section>
             </div>
