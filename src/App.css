@@ -1,7 +1,48 @@
 .App {
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 5px;
+  display: flex;
+}
+
+.buttons {
+  width: 20vw;
+  border: 2px solid black;
+  margin-left: 20px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  background-color: rgb(0, 255, 221);
   text-align: center;
 }
 
+ .run-button, .clear-button, .maze-button {
+  height: 8vh;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  align-items: center;
+} 
+
+#run-button{
+  background-color: rebeccapurple;
+  height: 8vh;
+}
+
+#clear-button {
+  background-color: chartreuse;
+}
+#maze-button{
+  background-color: chocolate;
+  height: 10vh;
+} 
+
+.instr {
+   border
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
