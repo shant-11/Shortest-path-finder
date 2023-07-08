@@ -40,13 +40,8 @@ export default class PathfindingVisualizer extends Component {
         this.setWalls = this.setWalls.bind(this);
         this.animateWalls = this.animateWalls.bind(this);
         this.clearMazeAndWalls = this.clearMazeAndWalls.bind(this);
-        // this.handleMouseDown = this.handleMouseDown.bind(this);
-        // this.handleMouseEnter = this.handleMouseEnter.bind(this);
-        // this.handleMouseUp = this.handleMouseUp.bind(this);
-        // this.handleMouseLeave = this.handleMouseLeave.bind(this);
         this.handleKeyPress = this.handleKeyPress.bind(this);
         this.handleMouseOver = this.handleMouseOver.bind(this);
-       // this.handleKeyRelease = this.handleKeyRelease.bind(this);
     }
     componentDidMount(){
         this.setState({
